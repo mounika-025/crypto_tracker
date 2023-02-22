@@ -1,11 +1,7 @@
+import CryptocurrencyTracker from './Components/CryptocurrencyTracker'
 
+import './App.css'
 
-function App() {
-  return (
-    <div className="App">
-      Crypto Currency Tracker
-    </div>
-  );
-}
+const App = () => <CryptocurrencyTracker />
 
-export default App;
+export default App
